@@ -6,13 +6,6 @@ import { getAuth } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  // apiKey: 'AIzaSyBm4Wj8FNFjiRQQHuVJirIr56wK0ckkMRo',
-  // authDomain: 'astro-auth-demo-5a975.firebaseapp.com',
-  // projectId: 'astro-auth-demo-5a975',
-  // storageBucket: 'astro-auth-demo-5a975.firebasestorage.app',
-  // messagingSenderId: '487197124874',
-  // appId: '1:487197124874:web:322cb365e799abb9b732f3',
-
   apiKey: import.meta.env.PUBLIC_FIREBASE_APIKEY,
   authDomain: import.meta.env.PUBLIC_FIREBASE_AUTHDOMAIN,
   projectId: import.meta.env.PUBLIC_FIREBASE_PROJECTID,
